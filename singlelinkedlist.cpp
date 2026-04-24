@@ -56,5 +56,18 @@ public:
         nodeBaru->next = current;
         previous->next = nodeBaru;
     }
-    
+
+    bool lisempty()
+    {
+        return (START == NULL);
+    }
+
+    bool search(int nim, node **previous, node **current)
+    {
+        *previous = START;
+        *current = START;
+
+        while ((*current != NULL) && (nim != (*current)->noMhs))
+        
+    }
 }
