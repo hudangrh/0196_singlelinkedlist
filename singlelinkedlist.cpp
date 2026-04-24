@@ -95,7 +95,18 @@ public:
     {
         if (listEmpty())
         {
-            cout << "\nlist kosong\";
+            cout << "\nlist kosong\n";
+        }
+        else
+        {
+            cout << "\nData di dalam list adalah:\n";
+            node *currentnode = START;
+            while (currentnode != NULL)
+            {
+                cout << currentnode->noMhs << endl;
+                currentnode = currentnode->next;
+            }
+            cout << endl;
         }
     }
 }
