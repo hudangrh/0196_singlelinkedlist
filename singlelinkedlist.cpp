@@ -7,3 +7,14 @@ public:
     int noMhs;
     node *next;
 };
+
+class Linkedlist
+{
+    node *START;
+
+public:
+    Linkedlist()
+    {
+        START = NULL;
+    }
+}
