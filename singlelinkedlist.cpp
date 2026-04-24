@@ -57,7 +57,7 @@ public:
         previous->next = nodeBaru;
     }
 
-    bool lisempty()
+    bool listEmpty()
     {
         return (START == NULL);
     }
@@ -89,5 +89,13 @@ public:
 
         delete current;
         return true;
+    }
+
+    void traverse()
+    {
+        if (listEmpty())
+        {
+            cout << "\nlist kosong\";
+        }
     }
 }
